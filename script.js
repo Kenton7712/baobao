@@ -4,11 +4,11 @@ const dotsContainer = document.querySelector('.carousel-dots');
 let autoSlideInterval;
 
 const galleryImages = [
-    "cat1.jpg",
-    "cat2.jpg",
-    "cat3.jpg",
     "cat4.jpg",
-    "cat5.jpg"
+    "cat5.jpg",
+    "cat6.jpg",
+    "cat7.jpg",
+    "cat1.jpg"
 ];
 let currentLightboxIndex = 0;
 
