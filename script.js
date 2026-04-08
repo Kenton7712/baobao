@@ -4,11 +4,13 @@ const dotsContainer = document.querySelector('.carousel-dots');
 let autoSlideInterval;
 
 const galleryImages = [
-    'c:/Users/shaoshaoyu/Desktop/小猫/小猫7.jpg',
-    'c:/Users/shaoshaoyu/Desktop/小猫/小猫2.jpg',
-    'c:/Users/shaoshaoyu/Desktop/小猫/小猫3.jpg',
-    'c:/Users/shaoshaoyu/Desktop/小猫/小猫4.jpg',
-    'c:/Users/shaoshaoyu/Desktop/小猫/小猫6.jpg'
+    "cat1.jpg",
+    "cat2.jpg",
+    "cat3.jpg",
+    "cat4.jpg",
+    "cat5.jpg",
+    "cat6.jpg",
+    "cat7.jpg"
 ];
 let currentLightboxIndex = 0;
 
