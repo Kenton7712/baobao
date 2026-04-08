@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>可爱小猫介绍</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">🐱 包包的纪念网站</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">关于包包</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">照片集</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-image">
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫1.jpg" alt="小猫1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫4.jpg" alt="小猫2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫5.jpg" alt="小猫3">
+                            </div>
+                        </div>
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+                <div class="home-info">
+                    <h1 class="animate-fade-in">你好呀！</h1>
+                    <h2 class="animate-fade-in-delay">我是包包</h2>
+                    <p class="animate-fade-in-delay-2">一只超级可爱的猫咪，我最喜欢睡觉和吃零食了！我有很爱我的爸爸妈妈，我很幸福！</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10</span>
+                            <span class="stat-label">月</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">金渐层</span>
+                            <span class="stat-label">品种</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">公</span>
+                            <span class="stat-label">性别</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">关于我 🐾</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">😺</div>
+                    <h3>我的性格</h3>
+                    <p>我是一只超级听话的小猫咪，喜欢粘着主人撒娇，连打针我都不怕哦！虽然有时候会有点小傲娇，但大部分时间都很乖很听话哦！</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎾</div>
+                    <h3>我的爱好</h3>
+                    <p>最喜欢吃饭了！也喜欢在阳台晒太阳，或者爬到高处看看风景。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📖</div>
+                    <h3>我的故事</h3>
+                    <p>我叫包包，此刻蜷在软猫窝里，阳光暖融融的，这是我在猫舍连做梦都不敢想的幸福。以前在猫舍，我最瘦小，常常饿肚子缩在笼子角落，从不知道温暖是什么。
+直到那天，主人轻轻抱起我说“包包，你再也不用饿肚子了”，给了我安心。我要一直和爸爸妈妈幸福下去！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">照片集 📷</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(0)">
+                    <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫7.jpg" alt="照片1">
+                    <div class="gallery-overlay">
+                        <span>🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(1)">
+                    <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫2.jpg" alt="照片2">
+                    <div class="gallery-overlay">
+                        <span>🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(2)">
+                    <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫3.jpg" alt="照片3">
+                    <div class="gallery-overlay">
+                        <span>🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(3)">
+                    <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫4.jpg" alt="照片4">
+                    <div class="gallery-overlay">
+                        <span>🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(4)">
+                    <img src="c:/Users/shaoshaoyu/Desktop/小猫/小猫7.jpg" alt="照片5">
+                    <div class="gallery-overlay">
+                        <span>🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">联系我的爸爸 💌</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>邮箱</h3>
+                        <p>Kenton771@outlook.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>微信</h3>
+                        <p>baobao_cat</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📷</div>
+                        <h3>小红书</h3>
+                        <p>@包包的日常</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="submitForm(event)">
+                        <input type="text" placeholder="你的名字" required>
+                        <input type="email" placeholder="你的邮箱" required>
+                        <textarea placeholder="想对我说些什么呢~" rows="5" required></textarea>
+                        <button type="submit">发送消息 ✨</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <button class="lightbox-nav lightbox-prev" onclick="changeLightboxImage(-1, event)">&#10094;</button>
+            <img id="lightbox-img" src="" alt="放大图片">
+            <button class="lightbox-nav lightbox-next" onclick="changeLightboxImage(1, event)">&#10095;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 包包的小窝 🐱 用爱制作的哦</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
