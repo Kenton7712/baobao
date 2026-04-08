@@ -8,9 +8,7 @@ const galleryImages = [
     "cat2.jpg",
     "cat3.jpg",
     "cat4.jpg",
-    "cat5.jpg",
-    "cat6.jpg",
-    "cat7.jpg"
+    "cat5.jpg"
 ];
 let currentLightboxIndex = 0;
 
